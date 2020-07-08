@@ -96,8 +96,13 @@ let phnext = document.createElement('button');
 let phbtncontainer = document.createElement('div');
 let phtaken = document.createElement('label');
 
+let btnprimary = document.getElementById('btnprimary');
+let main = document.getElementById('mainmain')
+
 // Called, when User clicks on "Register"  
 function registration(){
+
+    main.removeChild(btnprimary);
 
     // Set HTML Attributes for created Elements.
     row.setAttribute('class', 'row');

@@ -8,3 +8,8 @@
 body {
     background: #FEFF7F;
 }
+
+#btnprimary {
+    padding-left: 10rem;
+    padding-top: 10rem;
+}
